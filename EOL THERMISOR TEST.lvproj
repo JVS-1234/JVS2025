@@ -95,7 +95,6 @@
 				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
 			</Item>
 			<Item Name="SETTING CLOSE GLOBEL VARIABLE.vi" Type="VI" URL="../SETTING CLOSE GLOBEL VARIABLE.vi"/>
-			<Item Name="Printer Data.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Sequence/Controls/Printer Data.ctl"/>
 			<Item Name="Gen fgv action.ctl" Type="VI" URL="../Gen fgv action.ctl"/>
 			<Item Name="Printer Cmnd.vi" Type="VI" URL="../Printer Cmnd.vi"/>
 			<Item Name="File Paths.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/File Management/File Paths.ctl"/>
@@ -107,14 +106,12 @@
 			<Item Name="Hour Control.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Hour Control.ctl"/>
 			<Item Name="Minute Control.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Minute Control.ctl"/>
 			<Item Name="Device Config.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Device Manager/Device Config.ctl"/>
-			<Item Name="Serial Numberv02.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Sequence/Controls/Serial Numberv02.ctl"/>
 			<Item Name="Read Write.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Global VIs/Controls/Read Write.ctl"/>
 			<Item Name="Get File Path.vi" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/File Management/Get File Path.vi"/>
 			<Item Name="Serial Numberv01.vi" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Sequence/SubVI/Serial Numberv01.vi"/>
 			<Item Name="DUT Comm Status.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Device Manager/DUT CAN/Controls/DUT Comm Status.ctl"/>
 			<Item Name="Device Status.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Device Manager/DM Controls/Device Status.ctl"/>
 			<Item Name="Device List.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Device Manager/DM Controls/Device List.ctl"/>
-			<Item Name="Thermistor.lvclass" Type="LVClass" URL="../Thermistor/Thermistor.lvclass"/>
 			<Item Name="Fetch Part ID.vi" Type="VI" URL="../Fetch Part ID.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
