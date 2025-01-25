@@ -87,7 +87,6 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Enum to Array of Enums.vim" Type="VI" URL="/&lt;vilib&gt;/numeric/Enum to Array of Enums.vim"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
@@ -98,11 +97,19 @@
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Read INI Cluster__ogtk.vi" Type="VI" URL="../../../&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read INI Cluster__ogtk.vi"/>
-				<Item Name="Write INI Cluster__ogtk.vi" Type="VI" URL="../../../&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write INI Cluster__ogtk.vi"/>
-				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="../../../&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
+				<Item Name="openg_string.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
+				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
+				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
+				<Item Name="openg_variant_configuration_file.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/openg_variant_configuration_file.lvlib"/>
 			</Item>
 			<Item Name="SETTING CLOSE GLOBEL VARIABLE.vi" Type="VI" URL="../SETTING CLOSE GLOBEL VARIABLE.vi"/>
 			<Item Name="Gen fgv action.ctl" Type="VI" URL="../Gen fgv action.ctl"/>
@@ -111,18 +118,27 @@
 			<Item Name="Part Model.ctl" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Part Model.ctl"/>
 			<Item Name="Station Type.ctl" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Station Type.ctl"/>
 			<Item Name="CreateFileifNotExist.vi" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/File Management/CreateFileifNotExist.vi"/>
-			<Item Name="Configuration FGV.vi" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/SubVIs/Configuration FGV.vi"/>
-			<Item Name="Configuration.ctl" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Configuration.ctl"/>
-			<Item Name="Hour Control.ctl" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Hour Control.ctl"/>
-			<Item Name="Minute Control.ctl" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Minute Control.ctl"/>
-			<Item Name="Device Config.ctl" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Device Manager/Device Config.ctl"/>
-			<Item Name="Read Write.ctl" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Global VIs/Controls/Read Write.ctl"/>
-			<Item Name="Get File Path.vi" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/File Management/Get File Path.vi"/>
-			<Item Name="Serial Numberv01.vi" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Sequence/SubVI/Serial Numberv01.vi"/>
 			<Item Name="DUT Comm Status.ctl" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Device Manager/DUT CAN/Controls/DUT Comm Status.ctl"/>
 			<Item Name="Device Status.ctl" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Device Manager/DM Controls/Device Status.ctl"/>
 			<Item Name="Device List.ctl" Type="VI" URL="../../../C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Device Manager/DM Controls/Device List.ctl"/>
 			<Item Name="Fetch Part ID.vi" Type="VI" URL="../Fetch Part ID.vi"/>
+			<Item Name="Read INI Cluster__ogtk.vi" Type="VI" URL="../../../&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read INI Cluster__ogtk.vi"/>
+			<Item Name="Write INI Cluster__ogtk.vi" Type="VI" URL="../../../&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write INI Cluster__ogtk.vi"/>
+			<Item Name="Get File Path.vi" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/File Management/Get File Path.vi"/>
+			<Item Name="File Paths.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/File Management/File Paths.ctl"/>
+			<Item Name="Station Type.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Station Type.ctl"/>
+			<Item Name="Part Model.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Part Model.ctl"/>
+			<Item Name="CreateFileifNotExist.vi" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/File Management/CreateFileifNotExist.vi"/>
+			<Item Name="Read Write.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Global VIs/Controls/Read Write.ctl"/>
+			<Item Name="Hour Control.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Hour Control.ctl"/>
+			<Item Name="Minute Control.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Minute Control.ctl"/>
+			<Item Name="Device Config.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Device Manager/Device Config.ctl"/>
+			<Item Name="Configuration.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/Controls/Configuration.ctl"/>
+			<Item Name="Serial Numberv01.vi" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Sequence/SubVI/Serial Numberv01.vi"/>
+			<Item Name="Serial Numberv02.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Sequence/Controls/Serial Numberv02.ctl"/>
+			<Item Name="Configuration FGV.vi" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/SubVIs/Configuration FGV.vi"/>
+			<Item Name="Generic FGV Action.ctl" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Global VIs/Controls/Generic FGV Action.ctl"/>
+			<Item Name="Part Model FGV.vi" Type="VI" URL="/C/Users/enProducts/Downloads/KIA_Enproducts/KIA_Enproducts/Configuration/SubVIs/Part Model FGV.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="byte test" Type="EXE">
@@ -201,7 +217,7 @@
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
@@ -305,7 +321,7 @@
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/</Property>
+				<Property Name="Source[13].itemID" Type="Ref"></Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
@@ -388,7 +404,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{BE7B1AB2-A16F-400E-9014-A0342B16EC1E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -1016,7 +1032,7 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
@@ -1088,7 +1104,7 @@
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/</Property>
+				<Property Name="Source[14].itemID" Type="Ref"></Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
@@ -1462,10 +1478,10 @@
 				<Property Name="Destination[0].tag" Type="Str">{F74994EC-AD95-4BCA-9FE5-6375C481D240}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str"></Property>
-				<Property Name="DistPart[0].productID" Type="Str"></Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2021 (64-bit)</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{130967B8-62DA-3725-A46E-2E8360EA95EA}</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{5F3513DC-BAB2-4809-B45C-89F40435F413}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2021 SP1</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{251E8668-4013-3671-857C-61D46B2AC827}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/EOL THERMISOR TEST/My Installer</Property>
@@ -1475,8 +1491,8 @@
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">EOL THERMISOR TEST</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">21000000</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">21018000</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{D84C88ED-5991-4949-A099-5D8C53D1DDC2}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
@@ -1501,10 +1517,10 @@
 				<Property Name="DistPart[1].productID" Type="Str">{31B755F6-2A76-49DE-A454-4D6BD9D59470}</Property>
 				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 21.5</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str"></Property>
-				<Property Name="DistPart[2].productID" Type="Str"></Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2021 (64-bit)</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{130967B8-62DA-3725-A46E-2E8360EA95EA}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{5F3513DC-BAB2-4809-B45C-89F40435F413}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2021 SP1</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{251E8668-4013-3671-857C-61D46B2AC827}</Property>
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/EOL THERMISOR TEST/My Installer2</Property>
@@ -1514,8 +1530,8 @@
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">EOL THERMISOR TEST</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">21000000</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">21018000</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{110847BA-E8A3-40E6-A56E-8621F12F3FE0}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
@@ -1553,10 +1569,10 @@
 				<Property Name="DistPart[1].productID" Type="Str">{31B755F6-2A76-49DE-A454-4D6BD9D59470}</Property>
 				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 21.5</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str"></Property>
-				<Property Name="DistPart[2].productID" Type="Str"></Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2021 (64-bit)</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{130967B8-62DA-3725-A46E-2E8360EA95EA}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{5F3513DC-BAB2-4809-B45C-89F40435F413}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2021 SP1</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{251E8668-4013-3671-857C-61D46B2AC827}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[3].productID" Type="Str">{95941D18-5054-4448-A6BD-BCC01BFC3C7B}</Property>
 				<Property Name="DistPart[3].productName" Type="Str">NI System Configuration .NET Runtime for .NET Framework 4.6</Property>
@@ -1574,8 +1590,8 @@
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">EOL THERMISOR TEST</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">21000000</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">21018000</Property>
 				<Property Name="MSI_distID" Type="Str">{6AC964D5-2C60-41A4-9767-6AB8D2AE0DD0}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
